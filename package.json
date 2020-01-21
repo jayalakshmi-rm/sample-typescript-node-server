@@ -1,0 +1,36 @@
+{
+  "name": "node-server-project",
+  "version": "1.0.0",
+  "description": "practice project for lab test",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon --watch src/ --exec ts-node src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayalakshmi-rm/node-proj.git"
+  },
+  "keywords": [
+    "basic",
+    "node",
+    "project"
+  ],
+  "author": "Jayalakshmi RM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayalakshmi-rm/node-proj/issues"
+  },
+  "homepage": "https://github.com/jayalakshmi-rm/node-proj#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.17.1",
+    "@types/express": "^4.17.2",
+    "@types/mongoose": "^5.5.38",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.4",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
